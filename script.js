@@ -2,11 +2,19 @@
 
 window.addEventListener("load", main);
 
-function main() {
+async function main() {
+  const tests = await getTests();
+  console.log(tests);
+
   console.log("JS virker");
-  tfunction();
   nyPushTing();
   endnuMereLort();
+}
+
+async function getTests() {
+  const response = await fetch("test.json");
+  const data = await response.json();
+  return data;
 }
 
 function tfunction() {
