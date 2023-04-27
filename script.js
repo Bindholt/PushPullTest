@@ -4,9 +4,12 @@ window.addEventListener("load", main);
 
 function main() {
   console.log("JS virker");
-  testFunction();
+  tfunction();
 }
 
-function testFunction() {
-  alert("hej");
+function tfunction() {
+  const html = /* html*/ `
+  <div>viktor er mega sej</div>
+  `;
+  document.querySelector("#test").insertAdjacentHTML("beforeend", html);
 }
