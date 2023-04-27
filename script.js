@@ -4,4 +4,10 @@ window.addEventListener("load", main);
 
 function main() {
   console.log("JS virker");
+  andenf();
+}
+
+
+function andenf() {
+  console.log("Hello");
 }
