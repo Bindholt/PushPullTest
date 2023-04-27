@@ -23,3 +23,7 @@ function nyPushTing() {
 function endnuMereLort() {
   console.log("Se funktionsnavn");
 }
+
+function nyfunktiontiltest() {
+  console.log("Ny funktion fungerer");
+}
