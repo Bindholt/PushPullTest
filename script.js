@@ -6,6 +6,7 @@ function main() {
   console.log("JS virker");
   testFunction();
   nyPushTing();
+  endnuMereLort();
 }
 
 function testFunction() {
@@ -14,4 +15,8 @@ function testFunction() {
 
 function nyPushTing() {
   console.log("Fuck jeg elsker problemer");
+}
+
+function endnuMereLort() {
+  console.log("Se funktionsnavn");
 }
